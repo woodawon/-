@@ -14,6 +14,7 @@
         android:layout_marginTop="68dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/main_title"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="32dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +41,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+         />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

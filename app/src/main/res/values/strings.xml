@@ -2,4 +2,12 @@
     <string name="app_name">KotProject</string>
     <string name="main_title">Let’s find out\nyour psychology!</string>
     <string name="question">There were favorite flowers\nin the flower base.\nAs time goes, the flowers\nhave all withered.\nWhat are you going to do with that?</string>
+    <string name="main_text1">You are a QUITTER!</string>
+    <string name="main_text2">You should focus on yourself</string>
+    <string name="main_text3">You should take it easy</string>
+    <string name="main_text4">You are pretty mature.</string>
+    <string name="sub_text1">You can let the person easily.</string>
+    <string name="sub_text2">You become really clingy to your ex.</string>
+    <string name="sub_text3">You can do crazy things no matter what it takes.</string>
+    <string name="sub_text4">You can easily accept the break-up.</string>
 </resources>
