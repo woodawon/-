@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment.SelectionFragment">
+    tools:context=".fragment.SelectionFragment"
+    android:background="@color/white">
 
 
     <LinearLayout
@@ -26,7 +27,8 @@
             android:layout_weight="1"
             android:background="@drawable/selection"
             android:gravity="center"
-            android:text="1. Throw it away." />
+            android:text="1. Throw it away."
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/option_2"
@@ -36,7 +38,8 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="2. Water the flowers."
-            android:background="@drawable/selection" />
+            android:background="@drawable/selection"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/option_3"
@@ -46,7 +49,8 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="3. Cut it off with sissors."
-            android:background="@drawable/selection" />
+            android:background="@drawable/selection"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/option_4"
@@ -56,7 +60,8 @@
             android:gravity="center"
             android:text="4. Make them as dried flower."
             android:layout_marginBottom="10dp"
-            android:background="@drawable/selection" />
+            android:background="@drawable/selection"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

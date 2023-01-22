@@ -36,21 +36,26 @@ class SelectionFragment : Fragment(), View.OnClickListener {
 
     }
 
-    fun navigateWithIndex(index : Int) {
+    fun navigateWithIndex(index : Int){
         val bundle = bundleOf("index" to index) // bundleOf()는 가변인자가 있는 Pair()형태의 파라미터를 넣음. 이 원래 형태에 따르면
-    }                                                 // bundleOf(Pair("index", index)) 가 맞지만, "index" to index 로도 가능함. ++ 성능이 좋아서 bundleOf 많이 씀.
+                                                      // bundleOf(Pair("index", index)) 가 맞지만, "index" to index 로도 가능함. ++ 성능이 좋아서 bundleOf 많이 씀.
                                                       // Bundle : 데이터 저장 객체
-    override fun onClick(v: View) {
-        when(v.id) {
+        navController.navigate(R.id.action_selectionFragment_to_resultFragment,bundle)
+    }
+
+
+
+    override fun onClick(v: View?) {
+        when(v?.id) {
             R.id.option_1 -> {navigateWithIndex(1)}
             R.id.option_1 -> {navigateWithIndex(2)}
             R.id.option_1 -> {navigateWithIndex(3)}
             R.id.option_1 -> {navigateWithIndex(4)}
             R.id.btn_back -> {
                 navController.popBackStack() // popBackStack() : navController 클래스 안에 있는 popBackStack() 함수임.
-                navController.navigate(R.id.action_selectionFragment_to_resultFragment)
             }
         }
     }
+
 
 }

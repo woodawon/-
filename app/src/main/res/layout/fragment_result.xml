@@ -27,6 +27,7 @@
         android:fontFamily="sans-serif-light"
         android:text="May be you give up on
 love too easily.."
+        android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintEnd_toEndOf="parent"
