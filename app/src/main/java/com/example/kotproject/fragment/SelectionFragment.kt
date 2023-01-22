@@ -48,9 +48,9 @@ class SelectionFragment : Fragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         when(v?.id) {
             R.id.option_1 -> {navigateWithIndex(1)}
-            R.id.option_1 -> {navigateWithIndex(2)}
-            R.id.option_1 -> {navigateWithIndex(3)}
-            R.id.option_1 -> {navigateWithIndex(4)}
+            R.id.option_2 -> {navigateWithIndex(2)}
+            R.id.option_3 -> {navigateWithIndex(3)}
+            R.id.option_4 -> {navigateWithIndex(4)}
             R.id.btn_back -> {
                 navController.popBackStack() // popBackStack() : navController 클래스 안에 있는 popBackStack() 함수임.
             }
